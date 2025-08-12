@@ -2,7 +2,7 @@ import streamlit as st
 from knowledge_base import KnowledgeBaseClient
 
 # Page config
-st.set_page_config(page_title="Shellkode Bedrock Knowledge Base Chatbot", page_icon="🤖")
+st.set_page_config(page_title="AWS Bedrock Knowledge Base Chatbot", page_icon="🤖")
 
 # Initialize client
 @st.cache_resource
@@ -19,7 +19,7 @@ mode = st.sidebar.radio(
 )
 
 # Main interface
-st.title("🤖 Shellkode Bedrock Chatbot")
+st.title("🤖 AWS Bedrock Chatbot")
 st.write(f"Current mode: **{mode}**")
 
 # Input
