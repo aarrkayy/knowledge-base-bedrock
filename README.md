@@ -65,3 +65,4 @@ streamlit run app.py
 - Expandable result sections for better readability
 - Built-in instructions panel
 - Minimal configuration required# knowledge-base-bedrock
+# knowledge-base-bedrock
